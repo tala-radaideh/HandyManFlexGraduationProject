@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" /></group>
+
+
+
+
+
+    <group>
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/ic_baseline_collections_24"
+            android:title="@string/menu_menu" /></group>
+
+
+
+    <group>
+        <item
+            android:id="@+id/nav_view_orders"
+            android:icon="@drawable/ic_baseline_view_headline_24"
+            android:title="View Orders" /></group>
+
+
+    <group>
+        <item
+    android:id="@+id/nav_requested_services"
+    android:icon="@drawable/ic_baseline_bookmark_border_24"
+    android:title="Bookmarked Services"/></group>
+
+
+
+    <group>
+        <item
+            android:id="@+id/nav_update_info"
+            android:icon="@drawable/ic_baseline_update_24"
+            android:title="@string/update_info" /></group>
+
+
+
+
+    <group>
+        <item
+            android:id="@+id/nav_sign_out"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
+            android:title="@string/sign_out" /></group>
+
+    </menu>

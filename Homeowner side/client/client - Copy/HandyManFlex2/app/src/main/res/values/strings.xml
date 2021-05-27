@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">HandyManFlex</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">WELCOME !</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_clear_cart">Clear Cart</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_services_list">ServicesList</string>
+    <string name="best_deals"> Best Deals</string>
+    <string name="menu_cart"> Requested Services </string>
+    <string name="action_search"> Search Here </string>
+    <string name="menu_services_detail"> Service Detail</string>
+    <string name="menu_menu">Categories </string>
+    <string name="sign_out">Sign Out </string>
+    <string name="popular_categories">Popular Categories</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDdGy8BJb6N2di8nk0wZ_yCDgobCqg6zLo</string>
+    <string name="update_info">Update Info</string>
+</resources>

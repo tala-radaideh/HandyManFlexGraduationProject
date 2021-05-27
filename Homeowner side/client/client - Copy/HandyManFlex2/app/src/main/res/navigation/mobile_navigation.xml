@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.handymanflex.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_menu"
+        android:name="com.example.handymanflex.ui.menu.MenuFragment"
+        android:label="@string/menu_menu"
+        tools:layout="@layout/fragment_menu" />
+
+    <fragment
+        android:id="@+id/nav_services_list"
+        android:name="com.example.handymanflex.ui.Serviceslist.serviceslistFragment"
+        android:label= "@string/menu_services_list"
+        tools:layout="@layout/fragment_services_list" />
+    <fragment
+        android:id="@+id/nav_requested_services"
+        android:name="com.example.handymanflex.ui.cart.CartFragment"
+        android:label="Requested Services"
+        tools:layout="@layout/fragment_cart"/>
+
+    <fragment
+        android:id="@+id/nav_view_orders"
+        android:name="com.example.handymanflex.ui.view_orders.ViewOrdersFragment"
+        android:label="View Orders"
+        tools:layout="@layout/fragment_view_order"/>
+
+
+    <fragment
+        android:id="@+id/nav_services_detail"
+        android:name="com.example.handymanflex.ui.servicesdetail.servicsedetailFragment"
+        android:label="@string/menu_services_detail"
+        tools:layout="@layout/fragment_servicedetail" />
+</navigation>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:weightSum="10"
+    >
+    <ImageView
+        android:layout_width="0dp"
+
+        android:layout_height="100dp"
+        android:layout_weight="2"
+        android:layout_gravity="center_horizontal|center_vertical"
+        app:srcCompat="@drawable/ic_baseline_account"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:id="@+id/comment_name"
+            android:text="Name"
+            android:textSize="24sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RatingBar
+            android:id="@+id/rating_bar_per_user"
+            android:numStars="5"
+            android:layout_width="wrap_content"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textStyle="italic"
+            android:text="comment"
+            android:id="@+id/comment_per_user"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

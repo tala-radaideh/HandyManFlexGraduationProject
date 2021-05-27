@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1078229880177",
+    "project_id": "handymanflex-ccf63",
+    "storage_bucket": "handymanflex-ccf63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078229880177:android:d204672b2f3ab92a023ad0",
+        "android_client_info": {
+          "package_name": "com.example.handymanflex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078229880177-9okneqa3vqcthhqtmd641rrg5g0udrlq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBFtNs4Kw2OSUgSj_4A5FgNYDLcCI14j4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078229880177-9okneqa3vqcthhqtmd641rrg5g0udrlq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
